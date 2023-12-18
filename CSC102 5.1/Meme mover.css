@@ -1,0 +1,69 @@
+header { 
+    font-size: 152px;
+    color: red;
+
+
+}
+
+nav ul {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none; /* Removes the default bullet points */
+    margin: 0 auto;        /* Centers the ul and removes the default margin */
+    padding: 0;            /* Removes the default padding */
+    text-align: center;    /* Centers the list items */
+    margin-bottom: 20px;
+}
+
+nav li {
+    display: inline;       /* Keeps the li elements horizontal */
+    padding: 25px;
+
+}
+
+nav a {
+    text-decoration: none; /* Removes the default underline from links */
+    color: blue;
+    padding: 5px 10px;     /* Adds some padding around the links */
+    background-color: #f4f4f4; /* Adds a background color to the links */
+    border-radius: 5px;    /* Rounds the corners of the links */
+}
+
+nav a:hover {
+    background-color: #63eb09; /* Optional: Changes the background color on hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: gold;
+}
+#meme {
+    position: absolute;
+    width: 300px;
+    height: auto;
+}
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background-color: green;
+}
+
+#stopButton:hover {
+    background-color: red;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}

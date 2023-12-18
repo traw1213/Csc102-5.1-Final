@@ -1,0 +1,84 @@
+html, body {
+    height: 100%; /* Ensure the html and body cover the full height of the viewport */
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    background: linear-gradient(to top, grey, navy);
+    
+
+}
+
+header { 
+    font-size: 80px;
+    text-align: center;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 2px rgb(59, 59, 55);
+}
+
+nav ul {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none; /* Removes the default bullet points */
+    margin: 0 auto;        /* Centers the ul and removes the default margin */
+    padding: 0;            /* Removes the default padding */
+    text-align: center;    /* Centers the list items */
+    margin-bottom: 20px;
+}
+
+nav li {
+    display: inline;       /* Keeps the li elements horizontal */
+    padding: 25px;
+
+}
+
+nav a {
+    text-decoration: none; /* Removes the default underline from links */
+    color: blue;
+    padding: 5px 10px;     /* Adds some padding around the links */
+    background-color: #f4f4f4; /* Adds a background color to the links */
+    border-radius: 5px;    /* Rounds the corners of the links */
+}
+
+nav a:hover {
+    background-color: #63eb09; /* Optional: Changes the background color on hover */
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+ul {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    font-size: 25px;
+    color: goldenrod;
+    
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+

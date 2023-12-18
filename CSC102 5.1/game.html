@@ -1,0 +1,64 @@
+<!-- Todays Daye 12/16/2023 --> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="Game.css">
+    <title>Game</title>
+</head>
+
+<nav>
+    <ul>
+        <li><a href="Assignment 3.2.html">Home</a></li>
+        <li><a href="boards.html">Welcome</a></li>
+        <li><a href="Index.html">Funny Meme</a></li>
+        <li><a href="Meme mover.html">Meme Mover</a></li>
+        <li><a href="strings.html">Palindrome</a></li>
+        <li><a href="game.html">Game</a></li>
+    </ul>
+</nav>
+
+<body>
+
+
+    <header>
+        Natural or Synthetic?
+    </header>
+
+    <button onclick="func1()">Info</button>
+
+    <div id="rand1"></div>
+    <div id="rand2"></div>
+    <div id="rand3"></div>
+    <div id="result">Natural or Synthetic?</div>
+
+    <div class="button-container">
+        <button onclick="playAGame()">Play Game</button>
+    </div>
+
+    <div id="average">Press Play Game</div>
+
+    <!-- Added counters for Natural and Synthetic -->
+    <div>
+        <p>Natural Count: <span id="naturalCount">0</span></p>
+        <p>Synthetic Count: <span id="syntheticCount">0</span></p>
+    </div>
+
+    <!-- Shortcut Question with Input and Submit Button -->
+    <div>
+        <p> Shotcut to victory: What is the Sum of Natural?</p>
+        <input type="text" id="shortcutInput" placeholder="Enter your answer">
+        <button onclick="checkShortcutAnswer()">Submit Answer</button>
+    </div>
+
+
+    <footer>
+        <p> Travis Riley </p>
+        <p> University of Advancing Technology </p>
+        <p> 2625 W Baseline Rd, Tempe, AZ 85283 </p>
+    </footer>
+
+</body>
+</html>
